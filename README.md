@@ -27,4 +27,4 @@ Instead of throwing errors, the calculator intentionally returns faulty output f
 
 ---
 
-## Example
+
