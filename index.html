@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Faulty Calculator</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <div class="calc">
+    <div class="display">
+      <input type="text" id="screen" readonly>
+    </div>
+    <div class="buttons">
+      <button class="btn" data-val="7">7</button>
+      <button class="btn" data-val="8">8</button>
+      <button class="btn" data-val="9">9</button>
+      <button class="btn op" data-val="/">÷</button>
+
+      <button class="btn" data-val="4">4</button>
+      <button class="btn" data-val="5">5</button>
+      <button class="btn" data-val="6">6</button>
+      <button class="btn op" data-val="*">×</button>
+
+      <button class="btn" data-val="1">1</button>
+      <button class="btn" data-val="2">2</button>
+      <button class="btn" data-val="3">3</button>
+      <button class="btn op" data-val="-">-</button>
+
+      <button class="btn" data-val="0">0</button>
+      <button class="btn" data-val=".">.</button>
+      <button class="btn op" id="equals">=</button>
+      <button class="btn op" data-val="+">+</button>
+
+      <button class="btn wide" id="clear">C</button>
+      <button class="btn wide" id="del">DEL</button>
+    </div>
+  </div>
+
+  <script src="index.js"></script>
+</body>
+</html>
