@@ -67,8 +67,9 @@ body {
   transform: translateY(0);
   box-shadow: none;
 }
-
+/* this is a wide selection /*  */ */
 .wide {
   grid-column: span 2;
   background: #b91c1c;
 }
+
